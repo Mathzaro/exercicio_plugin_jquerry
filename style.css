@@ -1,0 +1,60 @@
+/* Estilo geral do formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Estilo dos campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo do botão de envio quando o cursor passa sobre ele */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens de erro (opcional) */
+.error-message {
+    color: #FF0000;
+    margin-top: 5px;
+}
+
+/* Estilizar o campo de CPF e CEP com a máscara */
+#cpf, #cep {
+    font-family: monospace; /* Garante que os caracteres se alinhem corretamente com a máscara */
+}
+
+/* Estilo para destacar campos obrigatórios (opcional) */
+.required {
+    color: #FF0000;
+    font-weight: bold;
+}
